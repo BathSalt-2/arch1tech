@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bathsalt-2.github.io/arch1tech/sitemap.xml
