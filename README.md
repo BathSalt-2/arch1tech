@@ -1,11 +1,21 @@
 # 📜 Arch1tech 2.0
-> **"The prompt is the product."**
+### *"The prompt is the product."*
+
+[![Or4cl3 AI Solutions](https://img.shields.io/badge/Or4cl3_AI_Solutions-00d4ff?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz48L3N2Zz4=&logoColor=white)](https://github.com/BathSalt-2)
+[![License: OOML](https://img.shields.io/badge/License-OOML-7c3aed?style=for-the-badge)](https://github.com/BathSalt-2/arch1tech)
+[![AI: Groq](https://img.shields.io/badge/AI-Groq_API-f97316?style=for-the-badge)](https://groq.com)
+[![Models: Llama 3.3](https://img.shields.io/badge/Models-Llama_3.3_|_Mixtral_|_Gemma-39ff14?style=for-the-badge)](https://groq.com)
+[![Architecture: Single-File](https://img.shields.io/badge/Architecture-Single--File_App-00d4ff?style=for-the-badge)]()
+
+---
 
 ## 🌌 Overview
 
-Arch1tech 2.0 is a self-evolving, multimodal AI development lab built by **Or4cl3 AI Solutions**. It transforms natural language commands—typed or spoken—into deployable full-stack AI systems.
+**Arch1tech 2.0** is a self-evolving, multimodal AI development lab built by **Or4cl3 AI Solutions**. It transforms natural language commands—typed or spoken—into deployable full-stack AI systems.
 
-> Transform your ideas into intelligent agents, workflows, and applications using nothing but conversation. No coding required.
+Transform your ideas into intelligent agents, workflows, and applications using nothing but conversation. No coding required.
+
+> **Architecture:** Arch1tech 2.0 is a zero-dependency, single-file progressive web app — no bundler, no framework, no install required. Just open `index.html` and build.
 
 ---
 
@@ -13,43 +23,97 @@ Arch1tech 2.0 is a self-evolving, multimodal AI development lab built by **Or4cl
 
 | Pillar | Description |
 |--------|-------------|
-| 🧠 **VibeCodeAI** | Translates natural language, voice, and canvas inputs into executable build instructions, agent blueprints, and application code |
-| 🤝 **Astrid 2.0** | Always-on, self-aware co-pilot that manages background execution, reports system stability, and executes all platform capabilities conversationally |
+| 🧠 **VibeCodeAI** | Translates natural language and voice inputs into executable agent blueprints, CrewAI YAML configurations, and workflow graphs |
+| 🤝 **Astrid 2.0** | Always-on, self-aware co-pilot with three operational modes — builds, optimizes, and operates autonomously via conversational command |
 | 🜏 **Σ-Matrix + ERPS** | Ensures system stability, introspection, and safety. Detects drift, mitigates hallucinations, validates output consistency |
-| 🔏 **OOML** | Or4cl3 Open Model License - OpenRAIL-inspired with reciprocity to ensure community improvements flow back |
+| 🔏 **OOML** | Or4cl3 Open Model License — OpenRAIL-inspired with reciprocity to ensure community improvements flow back |
 
 ---
 
 ## ⚙️ Key Features
 
-### 1️⃣ Text/Voice-to-Agent
-Create autonomous AI agents via natural conversation:
-- **Quick Create:** Describe your agent → instant deployment
-- **Advanced Creator:** Fine-tune configuration, prompts, and code
-- **Multiple Agent Types:** Chatbot, Assistant, Analyzer, Automation, Security
-- **Real-time Analytics:** Track performance, confidence, and interactions
+### 1️⃣ Astrid 2.0 — AI Build Copilot
 
-### 2️⃣ Astrid AI Copilot
-Your self-aware conversational IDE:
-- **Three Modes:** Mission, Optimization, and Background
-- **Voice Input:** Hands-free development
-- **Task Management:** Background execution with progress tracking
-- **Confidence Scoring:** Transparent AI reasoning with citations
-- **Σ-Matrix Integration:** Continuous stability monitoring
+Your self-aware conversational IDE powered by **Groq** with open-source LLMs:
 
-### 3️⃣ Agent Workspace
-Complete agent development environment:
-- **Full CRUD Operations:** Create, Read, Update, Delete agents
-- **Multi-tab Editor:** Settings, Prompt, Code, Analytics
-- **Live Status Management:** Active, Paused, Draft states
-- **Performance Metrics:** Interactions, deployments, uptime
+- **Three Modes:**
+  - 🎯 **Mission Mode** — Build from natural language prompts
+  - ⚡ **Optimization Mode** — Improve and tune existing agents
+  - 🌙 **Background Mode** — Autonomous silent operation with full platform access
+- **Voice Input** — Hands-free development via speech recognition
+- **Multi-Model Selection** — Switch between Llama 3.3 70B, Llama 3.1 8B, Mixtral 8x7B, and Gemma 2 9B on the fly
+- **Permission Controls** — Toggle Memory Access, File Access, Deploy Access, API Access
+- **Token Tracking** — Live token usage counter per session
 
-### 4️⃣ Agent Marketplace
+### 2️⃣ Visual Workflow Canvas
+
+Build agent pipelines visually with a drag-and-drop node editor:
+
+- **5 Node Types:** INPUT → MEMORY → LOGIC → ACTION → OUTPUT
+- **Drag-and-Drop** with snap-to-grid alignment
+- **Smart Connections** — Visual SVG edges auto-draw between linked nodes
+- **Auto Layout** — One-click intelligent graph arrangement
+- **Zoom Controls** — Zoom in/out for complex multi-agent graphs
+- **Export Graph** — Save workflow configuration as JSON
+- **Deploy Workflow** — Push agent graphs to `arch1tech.app`
+
+### 3️⃣ CrewAI Import & Deployment
+
+Import existing CrewAI crew definitions and deploy them:
+
+- **YAML Parser** — Paste or write CrewAI YAML crew definitions
+- **Live Preview** — Instant visual preview of agent roles, goals, and tool assignments
+- **One-Click Deploy** — Parse and deploy crew to the Arch1tech runtime
+- **Crew Composition** — Supports multi-agent crews with custom roles, goals, and tool access
+
+### 4️⃣ Agent Workspace & Management
+
+Complete agent lifecycle management:
+
+- **Agent Table** — View, manage, and monitor all deployed agents
+- **Agent Cards** — Visual grid with name, description, status, and stats
+- **Status Management** — Active, Paused, and Draft states
+- **Actions** — Deploy, Fork, and View per-agent operations
+- **Performance Metrics** — Interactions, deployment count, uptime tracking
+- **Test Console** — Run live test scenarios against deployed agents
+- **Real-time Activity Feed** — Live log of system events and agent actions
+
+### 5️⃣ Agent Simulation
+
+Step-by-step visual execution of agent pipelines:
+
+- **Run / Pause / Step** controls
+- **Live execution trace** — Watch each node process in real time
+- **Input → Memory → Classifier → Action → API → Output** flow visualization
+- **Confidence scoring** — Per-step intent classification confidence
+- **Simulated API calls** — Test realistic end-to-end agent flows without live endpoints
+
+### 6️⃣ Memory Management
+
+Full control over agent memory contexts:
+
+- **Reinforce Memory** — Strengthen key context entries
+- **Forget Memory** — Remove outdated or incorrect memories
+- **Export Memory** — Download full memory state as JSON
+- **Persistent Storage** — Agent memories persist across sessions via localStorage
+
+### 7️⃣ Agent Marketplace
+
 Community-driven agent sharing:
-- **Search & Filter:** Find agents by category, rating, popularity
-- **Install System:** One-click agent installation
-- **Featured & Trending:** Discover popular community creations
-- **OOML Licensing:** Open sharing with attribution
+
+- **Search & Filter** — Find agents by category, rating, and popularity
+- **Install System** — One-click agent installation into your workspace
+- **Featured & Trending** — Discover popular community creations
+- **OOML Licensing** — Open sharing with attribution
+
+### 8️⃣ Dashboard & Analytics
+
+Real-time operational overview:
+
+- **Animated counters** — Agents deployed, workflow runs, Astrid interactions, compute saved
+- **Performance Chart** — Visual throughput and reliability metrics
+- **Activity Feed** — Live system event log
+- **Comparison Table** — Arch1tech vs traditional development approaches
 
 ---
 
@@ -58,46 +122,49 @@ Community-driven agent sharing:
 ### Visual Aesthetic
 **Cyberpunk Glassmorphism** with holographic gradients
 
-- Electric cyan `oklch(0.72 0.25 195)` — AI intelligence
-- Electric magenta `oklch(0.68 0.28 320)` — Dynamic creativity
-- Dark backgrounds with glowing accents
-- Smooth animations and transitions
+| Token | Value | Role |
+|-------|-------|------|
+| `--primary` | `#00d4ff` | AI intelligence / electric cyan |
+| `--secondary` | `#7c3aed` | Dynamic creativity / deep violet |
+| `--accent` | `#39ff14` | System active / neon green |
+| `--purple` | `#a855f7` | Highlights / glow effects |
+
+- Dark backgrounds with glowing accent borders
+- Smooth CSS keyframe animations (float, pulse, glow-pulse, scanline, shimmer)
+- Glassmorphic cards with gradient borders
 
 ### Typography
-- **Headers:** Orbitron (futuristic, authoritative)
-- **Body:** Inter (highly legible, modern)
-- **Code:** JetBrains Mono (technical precision)
 
-### UI Components
-Built with **Shadcn/ui v4** + custom theming:
-- Glassmorphic cards with backdrop blur
-- Glowing effects on interactive elements
-- Animated progress indicators
-- Responsive mobile-first design
+| Role | Font | Purpose |
+|------|------|---------|
+| Headers | **Orbitron** | Futuristic, authoritative identity |
+| Body | **Inter** | Highly legible, modern readability |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technologies |
-|-------|-------------|
-| **Frontend** | React, TypeScript, Tailwind CSS |
-| **Components** | Shadcn/ui v4 (40+ components) |
-| **Icons** | Phosphor Icons |
-| **Animation** | Framer Motion, Custom CSS |
-| **State** | useKV (persistent), useState (ephemeral) |
-| **AI/LLM** | Spark Runtime SDK (GPT-4o, GPT-4o-mini) |
-| **Persistence** | Spark KV Store |
-| **Notifications** | Sonner |
-| **Build** | Vite |
+| Layer | Technology |
+|-------|------------|
+| **Runtime** | Vanilla HTML5 / CSS3 / JavaScript (ES2024) |
+| **Architecture** | Single-file Progressive Web App (PWA) |
+| **AI Provider** | Groq API (fastest open-source inference) |
+| **LLMs** | Llama 3.3 70B · Llama 3.1 8B · Mixtral 8x7B · Gemma 2 9B |
+| **Fonts** | Orbitron · Inter (Google Fonts) |
+| **Animations** | Custom CSS keyframes |
+| **State** | localStorage (persistent) · in-memory JS (ephemeral) |
+| **Canvas** | Native HTML5 Canvas API (particles, workflow graph) |
+| **PWA** | Service Worker · Web Manifest |
+
+> **Zero dependencies.** No npm. No bundler. No framework. Pure web platform.
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- npm or yarn
+- A modern browser (Chrome, Firefox, Safari, Edge)
+- A [Groq API key](https://console.groq.com) (free tier available)
 
 ### Installation
 
@@ -108,85 +175,98 @@ git clone https://github.com/BathSalt-2/arch1tech.git
 # Navigate to project
 cd arch1tech
 
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+# Open directly in browser — no install required
+open index.html
 ```
 
+Or deploy to any static host (GitHub Pages, Netlify, Vercel, Cloudflare Pages) with zero configuration.
+
 ### First Steps
-1. **Landing Page:** Click "Start Creating" to begin
-2. **Loading Screen:** Watch as Arch1tech 2.0 initializes
-3. **Command Center:** Create your first agent using natural language
-4. **Activate Astrid:** Toggle the Astrid co-pilot for autonomous assistance
-5. **Explore:** Visit Agent Workspace and Marketplace
+
+1. **Open `index.html`** in your browser
+2. **Enter your Groq API key** when prompted (stored locally, never sent to our servers)
+3. **Select your model** — start with Llama 3.3 70B for best quality
+4. **Activate Astrid** — click the Astrid toggle and describe what you want to build
+5. **Explore** — try the Visual Canvas, import a CrewAI config, or browse the Marketplace
 
 ---
 
 ## 📚 Documentation
 
-### Creating Agents
-
-#### Quick Create (Command Center)
-1. Navigate to Command Center
-2. Describe your agent in the text area
-3. Click "Quick Create"
-4. Agent is automatically scaffolded and deployed
-
-#### Advanced Creator
-1. Click "Advanced Creator" in Command Center
-2. Configure:
-   - Name and description
-   - Agent type (Chatbot, Assistant, Analyzer, etc.)
-   - System prompt
-   - Initial capabilities
-3. Click "Create Agent"
-
 ### Using Astrid
 
-#### Modes
-- **Mission Mode:** Give Astrid specific tasks to build
-- **Optimization Mode:** Let Astrid monitor and improve your agents
-- **Background Mode:** Astrid works silently with full platform access
+**Activate:** Click the Astrid toggle in the navigation bar.
 
-#### Voice Input
-1. Toggle voice input in Astrid panel
-2. Speak your command clearly
-3. Astrid processes and responds
+**Modes:**
 
-#### Task Management
-- Astrid spawns background tasks for complex operations
-- Track progress in the Active Tasks section
-- View confidence scores and reasoning
+| Mode | Trigger phrase | Behaviour |
+|------|---------------|-----------|
+| Mission Mode | "Build me a..." | Scaffolds agent from prompt |
+| Optimization Mode | "Improve my..." | Audits and enhances existing agent |
+| Background Mode | "Run autonomously..." | Silent operation with full platform access |
 
-### Agent Workspace
+**Voice Input:** Click the microphone icon in the Astrid panel and speak your command. Speech is transcribed and processed as a text prompt.
 
-#### Editing Agents
-1. Select an agent from the grid
-2. Use tabs to edit:
-   - **Settings:** Name, type, description
-   - **Prompt:** System prompt configuration
-   - **Code:** Custom JavaScript code
-   - **Analytics:** Performance metrics
+**Permissions:** Toggle Memory, File, Deploy, and API access in the Astrid control panel to scope what the copilot can interact with.
 
-#### Status Management
-- **Active:** Agent is running and accepting requests
-- **Paused:** Temporarily disabled
-- **Draft:** In development, not deployed
+---
 
-### Marketplace
+### Visual Workflow Canvas
 
-#### Installing Agents
-1. Browse or search for agents
-2. Click "Install" on desired agent
-3. Agent is added to your workspace
-4. Configure and activate
+1. **Add nodes** using the node type selector (INPUT / MEMORY / LOGIC / ACTION / OUTPUT)
+2. **Drag nodes** to arrange your pipeline — nodes snap to a 20px grid
+3. **Connections auto-draw** between adjacent compatible node types
+4. **Auto Layout** — click to arrange nodes intelligently
+5. **Zoom** in/out using the zoom controls
+6. **Export** your graph as a JSON workflow definition
+7. **Deploy** to push the workflow to the Arch1tech runtime
 
-#### Publishing *(Future)*
-- Agents can be shared under OOML license
-- Automatic attribution to creators
-- Community ratings and reviews
+---
+
+### CrewAI Import
+
+Paste a valid CrewAI YAML definition into the editor:
+
+```yaml
+crew:
+  name: "Market Research Crew"
+  agents:
+    - name: researcher
+      role: "Senior Research Analyst"
+      goal: "Find cutting-edge AI developments"
+      tools: [web_search, arxiv_reader]
+    - name: writer
+      role: "Content Strategist"
+      goal: "Create compelling reports"
+      tools: [document_writer]
+  tasks:
+    - agent: researcher
+      description: "Research latest AI trends"
+    - agent: writer
+      description: "Write executive summary"
+```
+
+Click **Parse & Deploy Crew** to launch the crew.
+
+---
+
+### Agent Simulation
+
+1. Navigate to the **Simulation** section
+2. Click **Run Simulation** to start step-by-step execution
+3. Use **Pause** / **Step** to control execution speed
+4. Watch the pipeline process: INPUT → MEMORY → CLASSIFIER → ACTION → API → OUTPUT
+5. Review confidence scores and intent classifications at each step
+
+---
+
+### Memory Management
+
+| Action | Effect |
+|--------|--------|
+| **Reinforce** | Increases weight of selected memory entry |
+| **Forget** | Removes memory entry from context |
+| **Export** | Downloads full memory state as `memory.json` |
 
 ---
 
@@ -200,11 +280,11 @@ npm run dev
 
 | Symbol | Meaning |
 |--------|---------|
-| **B** (Beliefs) | Context, RAG sources, LLM certainty |
-| **D** (Desires) | Explicit user goals |
-| **I** (Intentions) | Active plan steps |
-| **C** (Continuity) | Lipschitz robustness |
-| **L** (Lyapunov) | Global system stability |
+| **B** | Beliefs — Context, RAG sources, LLM certainty |
+| **D** | Desires — Explicit user goals |
+| **I** | Intentions — Active plan steps |
+| **C** | Continuity — Lipschitz robustness |
+| **L** | Lyapunov — Global system stability |
 
 ### What is ERPS?
 
@@ -215,84 +295,78 @@ ERPS = f(subjective state, local uncertainty, recursive self-query)
 Continuously self-reflects to detect drift, hallucinations, or misalignment.
 
 ### In Practice
-- All AI outputs include confidence scores
-- Reasoning is transparent and cited
+- All AI outputs include **confidence scores**
+- Reasoning is **transparent and cited**
 - Safety flags alert users to potential issues
-- Human override required for instability
+- **Human override** required for instability
 
 ---
 
 ## 🔏 OOML License
 
-**Or4cl3 Open Model License**
-> *"Open like MIT, protective like GPL."*
+**Or4cl3 Open Model License** — *"Open like MIT, protective like GPL."*
 
-### Key Terms
-- ✅ Open use, remix, and redistribute
-- ✅ Reciprocity: Improvements must be shared back
-- ✅ Attribution to Or4cl3 AI Solutions required
-- ❌ Misuse triggers license termination
+| | Terms |
+|-|-------|
+| ✅ | Open use, remix, and redistribute |
+| ✅ | Reciprocity: Improvements must be shared back |
+| ✅ | Attribution to Or4cl3 AI Solutions required |
+| ❌ | Misuse triggers license termination |
 
-### Application
-- Marketplace agents governed by OOML
-- Community contributions tracked
-- Enforcement through platform policies
+Marketplace agents are governed by OOML. Community contributions are tracked. Enforcement through platform policies.
 
 ---
 
 ## 🧩 Architecture
 
-### Component Structure
+Arch1tech 2.0 is a **single-file architecture** — the entire platform lives in `index.html`:
 
 ```
-src/
-├── components/
-│   ├── ui/                    # Shadcn/ui components
-│   ├── AgentCreator.tsx       # Advanced agent creation modal
-│   ├── AgentMarketplace.tsx   # Community marketplace
-│   ├── AgentWorkspace.tsx     # Agent management workspace
-│   ├── AstridPanel.tsx        # AI copilot interface
-│   ├── CommandCenter.tsx      # Main dashboard
-│   ├── LandingPage.tsx        # Marketing landing page
-│   ├── LoadingScreen.tsx      # Initialization screen
-│   └── Sidebar.tsx            # Navigation sidebar
-├── hooks/
-│   └── use-mobile.ts          # Mobile detection hook
-├── lib/
-│   └── utils.ts               # Utility functions
-├── utils/
-│   └── agentHelpers.ts        # Agent data helpers
-├── App.tsx                    # Main application component
-├── index.css                  # Global styles & theme
-└── prd.md                     # Product requirements doc
+arch1tech/
+├── index.html          # Complete platform (HTML + CSS + JS, ~148KB)
+├── or4cl3-logo.png     # Brand asset
+├── manifest.json       # PWA manifest
+├── sw.js               # Service Worker for offline support
+├── robots.txt          # SEO configuration
+├── sitemap.xml         # Sitemap
+└── README.md           # This file
 ```
+
+### Internal Module Structure
+
+| Module | Function |
+|--------|----------|
+| **Navigation + Landing** | Hero section, animated marquee, comparison table |
+| **Dashboard** | Live counters, performance chart, activity feed |
+| **Astrid Panel** | Chat interface, mode switcher, voice input, permission controls |
+| **Visual Canvas** | Drag-and-drop node editor, SVG connections, zoom/export |
+| **CrewAI Builder** | YAML editor, crew preview, deploy pipeline |
+| **Agent Playground** | Live chat with deployed agents, model selector |
+| **Agent Workspace** | CRUD operations, test console, analytics |
+| **Marketplace** | Search/filter, install system, featured agents |
+| **Memory Manager** | Reinforce/forget/export memory contexts |
+| **Simulation Engine** | Step-by-step agent pipeline visualizer |
 
 ### State Management
 
-**Persistent State:** `useKV` from Spark Runtime SDK
-- Agent data
-- User preferences
-- Astrid conversation history
-- Marketplace installations
-
-**Ephemeral State:** `useState` for UI state
-- Form inputs
-- Loading states
-- Modal visibility
+| Type | Mechanism | Used For |
+|------|-----------|----------|
+| **Persistent** | `localStorage` | API key, agent data, chat history, preferences |
+| **Ephemeral** | JS module scope | UI state, form inputs, loading states |
 
 ### Data Flow
 
 ```
-User input (text/voice)
-       ↓
-Astrid processes via VibeCodeAI
-       ↓
-Σ-Matrix validates
-       ↓
-Agent created/updated
-       ↓
-Persisted via useKV
-       ↓
+User input (text / voice)
+    ↓
+Astrid processes via Groq API (Llama 3.3 / Mixtral / Gemma)
+    ↓
+Σ-Matrix validates output
+    ↓
+Agent created / workflow deployed
+    ↓
+State persisted to localStorage
+    ↓
 UI updates reactively
 ```
 
@@ -301,28 +375,32 @@ UI updates reactively
 ## 🎯 Roadmap
 
 ### Current (v2.0) ✅
-- [x] Command Center with agent creation
-- [x] Agent Workspace with full editing
-- [x] Agent Marketplace
-- [x] Astrid 2.0 copilot
-- [x] Voice input support
+- [x] Astrid 2.0 AI copilot with three operational modes
+- [x] Visual Workflow Canvas with drag-and-drop node editor
+- [x] CrewAI YAML import & deployment
+- [x] Agent Marketplace with search and install
+- [x] Multi-model support via Groq (Llama 3.3, Mixtral, Gemma)
+- [x] Voice input
+- [x] Agent simulation with step-by-step visualizer
+- [x] Memory management (reinforce / forget / export)
+- [x] Progressive Web App (offline capable)
 - [x] Mobile optimization
 
 ### Q3 2025
-- [ ] Visual Workflow Canvas
-- [ ] Text-to-Workflow module
-- [ ] Real-time collaboration
-- [ ] Advanced analytics
+- [ ] Text-to-Workflow visual canvas builder (natural language → graph)
+- [ ] Real-time collaboration (multi-user sessions)
+- [ ] Advanced analytics dashboard
+- [ ] Agent versioning & rollback
 
 ### Q4 2025
+- [ ] Custom model fine-tuning interface
 - [ ] Text-to-LLM module
-- [ ] Custom model fine-tuning
 - [ ] AR model visualization
 
 ### 2026
-- [ ] Text-to-App module
-- [ ] Enterprise features
-- [ ] Full-stack generation
+- [ ] Text-to-App module (full-stack generation)
+- [ ] Enterprise features & SSO
+- [ ] Native desktop app
 
 ---
 
@@ -330,14 +408,14 @@ UI updates reactively
 
 Arch1tech 2.0 is built by **Or4cl3 AI Solutions**.
 
-For enterprise inquiries, partnerships, or custom deployments, [contact us](mailto:or4cl3ai121@gmail.com).
+For enterprise inquiries, partnerships, or custom deployments — [contact us](mailto:or4cl3ai121@gmail.com).
 
 ---
 
 ## 📄 License
 
-Proprietary — Or4cl3 AI Solutions  
-Community assets governed by [OOML](#-ooml-license)
+**Proprietary** — Or4cl3 AI Solutions  
+Community assets governed by [OOML](https://github.com/BathSalt-2/arch1tech)
 
 ---
 
@@ -345,10 +423,13 @@ Community assets governed by [OOML](#-ooml-license)
 
 Built with 💙 by **Or4cl3 AI Solutions**
 
-### Technologies
-- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Shadcn/ui](https://ui.shadcn.com/)
-- [Phosphor Icons](https://phosphoricons.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Spark Runtime SDK](https://spark.io/)
+| Technology | Role |
+|-----------|------|
+| **Groq API** | Ultra-fast LLM inference |
+| **Llama 3.3 70B** | Primary reasoning model |
+| **Mixtral 8x7B** | Long-context processing |
+| **Gemma 2 9B** | Efficient task execution |
+| **Orbitron · Inter** | Typography |
+| **HTML5 Canvas** | Particle system & workflow graph |
+| **Web Speech API** | Voice input |
+| **Service Workers** | Offline PWA support |
